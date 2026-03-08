@@ -1,0 +1,19 @@
+Name,Email,Password
+Mounika123,mounika@gmail.com,Pass12345678
+User1,user1@gmail.com,Test12345678
+User2,user2@gmail.com,Pass98765432
+DuplicateUser,mounika@gmail.com,Pass12345678
+InvalidEmail,user@,Pass12345678
+WeakPassword,user3@gmail.com,12345
+UnicodeUser,mounika😊@mail.com,Pass12345678
+SpaceEmail," user4@gmail.com ",Pass12345678
+SpecialChar,user!@mail.com,Pass12345678
+LongEmail,longemailaddress123@gmail.com,Pass12345678
+Abcd,user5@gmail.com,Pass12345678
+VeryLongUserNameTwentyFour,user6@gmail.com,Pass12345678
+OverMaxNameLength,user7@gmail.com,Pass12345678
+UppercaseEmail,TEST@MAIL.COM,Pass12345678
+SQLInjection,"' OR '1'='1",Pass12345678
+XSSAttack,"<script>alert(1)</script>",Pass12345678
+TrimSpaces," user8@gmail.com ",Pass12345678
+RateLimitUser,user9@gmail.com,Pass12345678
